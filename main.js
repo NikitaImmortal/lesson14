@@ -115,19 +115,19 @@
 
 */
 
-   function squareNumber(num) {
-      return  num * num
-   }
-   
-   function checkNumber() {
-    let num = prompt('Введите число от 18 до 50');
-    if (num >= 18 && num <= 50) {
-        return squareNumber(num); 
-    } else if(num < 18 || num > 50) {
-    alert('Вы ввели значение не из диапазона'); 
-    } else (num != "") 
-        alert('Введите число из диапозона от 18 до 50!'); 
-    
-}
+// function squareNumber(num) {
+//     return  num * num
+//   }
+//   function checkNumber() {
+//   let num = prompt('Введите число от 18 до 50');
+//   if (num >= 18 && num <= 50) {
+//     return squareNumber(num); 
+//   } else if(num < 18 || num > 50) {
+//     alert('Вы ввели значение не из диапазона'); 
+//   } else {
+//     alert('Введите число из диапозона от 18 до 50!'); 
+//     }
+//   }
 
-   console.log(checkNumber())
+//   checkNumber()
+   
